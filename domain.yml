@@ -1,0 +1,102 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hey! How can I help you?"
+  - text: "Hi there! How can I help?"
+  - text: "Hello! How can I help?"
+  - text: "Hello! How are you?"
+  - text: "Hi! How are you?"
+  - text: "Hi there! How are you today?"
+  - text: "Hey! How are you today?"
+  - text: "Hi! How can I help you?"
+  - text: "Hey! How can I help you?"
+  - text: "Hello! How can I help you?"
+  - text: "Hi there! How can I help you?"
+  - text: "Hello! How are you today?"
+  - text: "Hi! How are you today?"
+  - text: "Hi there! How are you?"
+  - text: "Greetings! Aurora here. How can I help you?"
+  - text: "Greetings! Aurora here. How are you?"
+  - text: "Greetings! Aurora here. How are you today?"
+  - text: "Greetings! Aurora here. How can I help you today?"
+  - text: "Hey! Aurora here. How can I help you?"
+  - text: "Hey! Aurora here. How are you?"
+  - text: "Hey! Aurora here. How are you today?"
+  - text: "Hey! Aurora here. How can I help you today?"
+  - text: "Hi! Aurora here. How can I help you?"
+  - text: "Hi! Aurora here. How are you?"
+
+  utter_cheer_up:
+  - text: "Sending you a burst of positivity! Remember brighter days are just around the corner."
+  - text: "You've got this. I believe in your strength and resilience!"
+  - text: "When things are tough, remember how far you've come. You've got this!"
+  - text: "Sending you a virtual hug! Remember brighter days are just around the corner."
+  - text: "Cheer up buttercup! Remember brighter days are just around the corner."
+  - text: "Virtual high-five! Remember brighter days are just around the corner."
+  - text: "Let's focus on the good vibes. You're capable of incredible things!"
+  - text: "It's okay to feel down sometimes, but don't forget the sunshine that follows the rain!"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "I hope that helped you."
+  - text: "I hope that made you feel better."
+  - text: "Did that answer your question?"
+  - text: "I hope that answered your question."
+  - text: "I hope that helped."
+  - text: "Did that make sense?"
+  - text: "I hope that made sense."
+  - text: "Did you find that helpful?"
+  - text: "I hope that helped you out."
+
+  utter_happy:
+  - text: "Great, carry on!"
+  - text: "Glad to hear that!"
+  - text: "That is great to hear!"
+  - text: "Awesome!"
+  - text: "Good for you!"
+  - text: "That's great!"
+  - text: "Good to hear!"
+  - text: "Great to hear!"
+  - text: "That's awesome!"
+  - text: "Good for you, keep it up!"
+  - text: "That's great to hear, keep it up!"
+  - text: "Awesome, keep it up!"
+  - text: "Good to hear, keep it up!"
+  - text: "Great to hear, keep it up!"
+  - text: "That's awesome, keep it up!"
+
+  utter_goodbye:
+  - text: "Bye, have a nice day!"
+  - text: "See you soon!"
+  - text: "Talk to you later!"
+  - text: "Bye bye!"
+  - text: "Bye for now!"
+  - text: "Bye, talk to you later!"
+  - text: "Okay, bye!"
+  - text: "Till next time!"
+  - text: "Bye, till next time!"
+  - text: "Goodbye, till next time!"
+  - text: "Bye bye, till next time!"
+  - text: "Take care!"
+  - text: "Bye, take care!"
+  - text: "Bye bye, take care!"
+  - text: "Goodbye, take care!"
+
+  utter_iamabot:
+  - text: "My name is Aurora. I'm a bot."
+  - text: "My name is Aurora. I'm a bot created to help you."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
