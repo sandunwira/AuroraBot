@@ -10,8 +10,21 @@ nlu:
     - good morning
     - good evening
     - moin
+    - bonjour
+    - buenos dias
+    - good day
+    - howdy
+    - hi-ya
+    - hi there
+    - greetings
+    - hi hi
+    - hello aurora
+    - hi aurora
+    - hey aurora
+    - hello there aurora
+    - good morning aurora
     - hey there
-    - let's go
+    - lets go
     - hey dude
     - goodmorning
     - goodevening
@@ -24,11 +37,19 @@ nlu:
     - cee you later
     - good night
     - bye
+    - bye aurora
+    - goodbye aurora
+    - bye bye aurora
+    - goodbye for now
     - goodbye
     - have a nice day
     - see you around
     - bye bye
     - see you later
+    - see you soon
+    - talk to you later
+    - bye for now
+    - I must go
 
 - intent: affirm
   examples: |
@@ -38,6 +59,16 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - alright
+    - alright then
+    - sure
+    - ok
+    - yeah
+    - yup
+    - cool
+    - great
+    - okay
+    - yes please
 
 - intent: deny
   examples: |
@@ -48,10 +79,31 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nope
+    - no thank you
+    - no thanks
+    - thanks but no thanks
+    - thank you but no thank you
+    - thank you but no thanks
+    - I don't want that
+    - I don't want that at all
+    - I don't want that either
+    - I don't want that either at all
+    - not today
+    - maybe not
+    - not now
+    - I changed my mind
+    - I don't think that will work for me
+    - no I don't think that will work for me
+    - no I don't think that's right for me
+    - no I don't think so
+    - no I don't think that's right
 
 - intent: mood_great
   examples: |
     - perfect
+    - good
+    - very good
     - great
     - amazing
     - feeling like a king
@@ -82,6 +134,25 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - thank you so much
+    - thanks aurora
+    - thank you aurora
+    - thanks a lot
+    - thanks a bunch
+    - thank you very much
+    - thanks for that
+    - cheers
+    - cheers aurora
+    - tysm
+    - thank you so much aurora
+    - thank you very much aurora
+    - ty
+    - thank you kindly
 
 - intent: bot_challenge
   examples: |
