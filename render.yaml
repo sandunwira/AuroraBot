@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: rasa-chatbot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: standard
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 10000
